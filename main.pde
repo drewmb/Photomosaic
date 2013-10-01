@@ -46,9 +46,6 @@ void setup() { // This is only specialized for me.  Will update it to have more 
   }
 
   //Set up Display
-  // THIS IS WHERE YOU SHOULD MODIFY WHAT PICTURE YOU WANT TO TRANSFORM INTO A PHOTOMOSAIC (Browse feature coming soon)
-  target = loadImage("target.png");
-  
   selectInput("Select Image", "fileSelected");  // Let's user select image of his/her choice
   
 }
